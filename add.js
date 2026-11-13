@@ -85,6 +85,20 @@ console.log(rakam(1234567890));
 
 //107-Masala
 
+function fun(sonnn){
+    let arr =[];
+    let str =String(sonnn);
+    let num = "";
+    for(let i of str){
+        arr.push(i);
+    }
+    arr=arr.reverse();
+    for(let i of arr){
+        num +=i;
+    }
+    return Number(num);
+}
+console.log(fun("005"));
 
 
 
